@@ -1,0 +1,40 @@
+.slider {
+    appearance: none;
+    height: 15px;
+    border-radius: 5%;
+    background: #919090;
+  
+    outline: none;
+    margin: 15px;
+  }
+  .slider::-webkit-slider-thumb {
+    appearance: none;
+    height: 35px;
+    width: 35px;
+    background-color: cyan;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    appearance: none;
+    height: 35px;
+    width: 35px;
+    background-color: cyan;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  button {
+    border-radius: 5px;
+    padding: 10px 35px;
+    margin: 25px;
+  }
+  .color{
+    background-image: linear-gradient(25deg, #360e42, #6f1c47, #a82e4a, #e3414c)
+  }
+  .color1{
+    background-image: linear-gradient(25deg, #64615c, #8d8983, #b8b4ab, #e5e0d6)
+  }
+  .color2{
+    background-image: linear-gradient(25deg, #070d21, #3a2a32, #6c4743, #a16754)
+  }
